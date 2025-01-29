@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651005150901",
+    "project_id": "generator-project-94d12",
+    "storage_bucket": "generator-project-94d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651005150901:android:1c8d4ded23ea4ced70e0fc",
+        "android_client_info": {
+          "package_name": "sheridan.adolfo_david_romero.prototype_device"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MjKNgQIqdTUuGTbcZNli00a66r8CSIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
