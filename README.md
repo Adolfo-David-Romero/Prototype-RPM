@@ -32,13 +32,10 @@ A **prototype Android app** built with **Kotlin & Jetpack Compose** to test remo
 -----------------------
 
 1.  **Clone the repository**:
-
-    sh
-
-    CopyEdit
-
-    `git clone https://github.com/Adolfo-David-Romero/Prototype-RPM.git
-    cd Prototype-RPM`
+    ```
+    git clone https://github.com/Adolfo-David-Romero/Prototype-RPM.git
+    cd Prototype-RPM
+    ```
 
 2.  **Open in Android Studio** and ensure you have the latest **Kotlin & Jetpack Compose** dependencies installed.
 
@@ -48,22 +45,16 @@ A **prototype Android app** built with **Kotlin & Jetpack Compose** to test remo
     -   Download `google-services.json` and place it in the `app/` directory.
     -   Enable Firestore & Authentication (if used).
 4.  **Enable Bluetooth Permissions** in `AndroidManifest.xml`:
-
-    xml
-
-    CopyEdit
-
-    `<uses-permission android:name="android.permission.BLUETOOTH"/>
+    ```
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>`
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    ```
 
 5.  **Run the app** on a physical device (BLE features may not work on an emulator):
-
-    sh
-
-    CopyEdit
-
-    `./gradlew assembleDebug`
+    ```
+    ./gradlew assembleDebug
+    ```
 
 * * * * *
 
